@@ -5,7 +5,6 @@
 %define		subver	20011111cvs
 %define		rel		1
 %define		srcname		xmldb
-%include	/usr/lib/rpm/macros.java
 Summary:	XML:DB API for Java
 Name:		java-%{srcname}
 Version:	0.1
