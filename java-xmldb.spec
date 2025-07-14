@@ -71,7 +71,7 @@ Javadoc for XML:DB.
 
 %prep
 %setup -q -n xmldb
-%patch0
+%patch -P0
 find -name "*.jar" | xargs rm -v
 cp -p %{SOURCE1} build.xml
 cp -p %{SOURCE2} license.txt
